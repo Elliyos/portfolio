@@ -6,6 +6,7 @@ import { Parallax } from 'react-spring/renderprops-addons.cjs'
 // Components
 import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard'
+import Badge from '../components/ProjectCard'
 
 // Elements
 import Inner from '../elements/Inner'
@@ -76,6 +77,9 @@ const Index = () => (
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             A realty platform for the new generation.
+            <Badge
+              tech="React"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)" />
           </ProjectCard>
           <ProjectCard
             title="Project Whirligig"
@@ -83,7 +87,7 @@ const Index = () => (
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             A research project tracking the behavior of beetles using AI and computer vision.
-            <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Python</button>
+
           </ProjectCard>
           <ProjectCard
             title="Artware"

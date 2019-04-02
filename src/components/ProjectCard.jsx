@@ -30,6 +30,12 @@ const ProjectCard = ({ title, link, children, bg }) => (
   </Wrapper>
 )
 
+const Badge = ({ tech, bg }) => (
+  <Wrapper bg={bg}>
+    <Text>{tech}</Text>
+  </Wrapper>
+)
+
 export default ProjectCard
 
 ProjectCard.propTypes = {
