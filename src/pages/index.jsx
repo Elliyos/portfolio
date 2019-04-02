@@ -83,6 +83,9 @@ const Index = () => (
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             A research project tracking the behavior of beetles using AI and computer vision.
+            <span class="flex rounded-full bg-indigo uppercase px-2 py-1 text-xs font-bold mr-3">Python</span>
+            <span class="flex rounded-full bg-indigo uppercase px-2 py-1 text-xs font-bold mr-3">OpenCV</span>
+            <span class="flex rounded-full bg-indigo uppercase px-2 py-1 text-xs font-bold mr-3">TensorFlow</span>
           </ProjectCard>
           <ProjectCard
             title="Artware"
