@@ -76,14 +76,14 @@ const Index = () => (
             link="https://github.com/brian-guerrero/homebase"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            A realty platform for the new generation.
+            A realty platform for the new generation. Made with React.
           </ProjectCard>
           <ProjectCard
             title="Project Whirligig"
             link="https://github.com/Elliyos/ProjectWhirligig"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            A research project tracking the behavior of beetles using AI and computer vision.
+            A research project, using Python and OpenCV, tracking the behavior of beetles using AI and computer vision.
 
           </ProjectCard>
           <ProjectCard
@@ -91,7 +91,7 @@ const Index = () => (
             link="https://github.com/Elliyos/artware"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            A social network to track links between historical artists.
+            A social network, built in Java, to track links between historical artists.
           </ProjectCard>
           <ProjectCard
             title="Death Calculator"
