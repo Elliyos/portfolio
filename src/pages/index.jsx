@@ -93,6 +93,13 @@ const Index = () => (
           >
             A social network to track links between historical artists.
           </ProjectCard>
+          <ProjectCard
+            title="Death Calculator"
+            link="https://github.com/Elliyos/DeathCalculator"
+            bg="linear-gradient(to right, #7F7FD5 0%, #91EAE4 100%)"
+          >
+            An Android app to calculate when someone lived, how long they lived, or when they died.
+          </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
