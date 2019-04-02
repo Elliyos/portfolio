@@ -77,9 +77,6 @@ const Index = () => (
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
             A realty platform for the new generation.
-            <Badge
-              tech="React"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)" />
           </ProjectCard>
           <ProjectCard
             title="Project Whirligig"
