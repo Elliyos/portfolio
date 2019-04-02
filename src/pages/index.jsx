@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/avatar.png'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -98,11 +98,15 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            TODO
+            "Give me <b>six hours</b> to chop down a tree and I will spend the <b>first four</b> sharpening the axe."
+            <i>- Abraham Lincoln</i>
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          TODO
+          Kyle is a graduating computer science major from <b>Augustana College</b> in Rock Island, IL.
+          He loves programming (most of the time), his cat Zelda, and video games. He's driven
+          by an intense desire to improve the world, and his mission is to make it a better place
+          through his work.
         </AboutDesc>
       </About>
       <Contact offset={4}>
